@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="descriptoin" content="cliente_prospect">
+    <meta name="keywords" content="SESI,SENAI,Desenvolvedor de sistema">
+    <meta name="author" content="Gustavo carvalho Baena">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/teste01.png">
+    <title>Cliente Prospect</title>
+</head>
+<body>
+    <h1>Cliente Prospect</h1>
+    <form action="https://desenvolvimento-sistemas-garca.site/" method="post">
+        <label for="Nome">Nome</label><br>
+        <input type="text" id="nome"name="name" required><br>
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">telefone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br> 
+        <label for="name">Possui ums empresa?</label><br>
+        <input list="browsers" required>
+        <datalist id="browsers">
+            <section id="possui alguma empresa?" name="possui uma empresa">
+                <option value="sim">sim</option>
+                <option value="não">não</option>
+                <option value="não, mas pretendo abrir nos proximos meses">não, mas pretendo abrir nos proximos meses</option>
+                <option value="Sou contador ou consutor de empresa">Sou contador ou consutor de empresa</option>
+                <option value="sou estudante">sou estudante</option>
+            </section>
+        </datalist>
+        <p>emite notas fiscais?</p>
+        <input type="radio" id="eu quero" name="Voce quer receber notas fiscais?" value="eu quero">
+        <label for="eu quero">Sim</label><br>
+        <input type="radio" id="eu não quero" name="voce quer receber notas fiscais" value="eu não quero">
+        <label for="eu não quero">Não</label><br>
+        <input type="checkbox" id="vehicle1" name="termos" value="Eu concordo em receber comunicações">
+        <label for="termos"> Eu concordo em receber comunicações</label><br>
+        <input type="submit" value="enviar" style="background-color: rgb(0, 255, 42);">
+    </form>
+    
+</body>
+</html>

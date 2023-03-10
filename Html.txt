@@ -1,0 +1,36 @@
+Html:tipo de linguagem de programação
+head:cabeçario do site
+body: Corpo do site
+utf-8:tem todos os tipos de acentuações da lingua portuguesa
+(https://validator.w3.org/) Irá achar o erro na programação do seu site
+tags:<h1> até <h6> são os tamanho da sua palavra ou frases e tambem e feito pela hierarquia
+title: titulo da pagina
+<p> Paragrafo
+<br> Quebra de linha
+<meta name="viewport" content="width=device=width,initial-scale=1.0">: irá mudar a porproção do seu site e também as letras
+<pre> serve para quebrar sua linha mais facil( como por exemplo: um poema)
+<em> ira deixar a palavra em italico
+<strong> palavras chaves
+<b> só irá ficar em negrito
+<a> iperlinks 
+https://www.w3schools.com/: É uma "cola" para vc saberuma coisa que vc tem duvidas,problema:vc tem que saber onde irar estar no site
+<circle>; vc irá por circulos usando esse codigo e mudando o angulo do triangulo
+Paint.net:serve para mudar a proporção da sua imagem
+ancora: é igual um link so que ele ira manda a pessoa para seu proprio site 
+link: ira mandar a pessoa para um outro site 
+<link rel="shortcut icon" href=https//>: serve para a foto ficar do lado do title 
+<ul> lista nao ordernada
+<li> estara junto com ul e ol
+<ol> lista ordernada
+se vc colocar no body "style="background-color:"e depois "color" vc ira conseguir mudar a cor do fundo e a escrita
+table
+tr:serve para criar linha de uma coluna 
+td:linha
+th:coluna
+hr:ira criar uma linha para divir as tabelas 
+form: ira ciar um formulario para a pessoa preencher
+post:enviara sem mostrar na tela
+hidder:ira esconder as informações
+get:iraestar a mostra 
+
+

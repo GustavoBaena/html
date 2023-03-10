@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="descriptoin" content="pre matricula">
+    <meta name="keywords" content="SESI,SENAI,Desenvolvedor de sistema">
+    <meta name="author" content="Gustavo carvalho Baena">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <link rel="shortcut icon" href="teste.jpg">
+    <title>Cliente Prospect</title>
+</head>
+<h1>Pre matricula</h1>
+<body style="background-color: black;color:white;">
+    <p>Nome do Aluno:
+        <input type="text" required name="name" size="20" maxlength="40" id="fname" placeholder="Gustavo"><br>
+    </p>		
+    <p>Nascimento (dd/mm/aaaa):
+        <input type="data" required name="dia" size="1" maxlength="2" id="dia" placeholder="dia">/
+        <input type="data" required name="mes" size="1" maxlength="2" id="mes" placeholder="mês">/
+        <input type="data" required name="ano" size="1" maxlength="4" id="ano" placeholder="ano">
+    </p>
+    <p>Nome da Mãe:
+        <input type="text" required name="mae" size="20" maxlength="40" id="mae" value="" placeholder="nome da mãe" br>
+    </p>
+    <p>Nome do Pai:
+        <input type="text" required name="pai" size="20" maxlength="40" id="pai" value="" placeholder="nome do pai"><br>
+    </p>
+    <p>Telefone: DDD (
+        <input type="tel" required name="ddd" size="1" maxlength="2" id="ddd" placeholder="DDD">)
+        Tel:<input type="tel" required name="telefone" size="5" maxlength="8" id="tel" placeholder="telefone">
+    </p>
+    <p>E-mail:
+        <input type="email" required name="email" size="20" maxlength="40" id="email" placeholder="aaa@aaa.com" ><br>
+    </p>
+</fieldset>
+<fieldset>
+<h3>Informações de Matrícula:</h3>
+<div class="principal">
+    <div class="series">
+    <p> Série: <br>
+        <select name="serie">
+              <option value="valor1">pré-escolar</option>
+              <option value="valor2">1 ano</option>
+              <option value="valor3">2 ano</option>
+              <option value="valor4">3 ano</option>
+              <option value="valor5">4 ano</option>
+              <option value="valor6">5 ano</option>
+              <option value="valor7">6 ano</option>
+              <option value="valor8">7 ano</option>
+              <option value="valor9"> 8 ano</option>
+              <option value="valor10">1 ano Medio</option>
+              <option value="valor11">2 ano Medio</option>
+              <option value="valor12">3 ano Medio</option>
+        </select>
+    </p>
+</p>
+</div>
+<div class="turno">
+<p> Turno:<br>
+    <input type="radio" name="turno" value="manhã">Manhã<br>
+    <input type="radio" name="turno" value="tarde">Tarde<br>
+</p>
+</div>
+<div class="atividade">
+    <p>Atividades Extracurriculares:<br>
+        <input type="checkbox" name="inf">Informática<br>
+        <input type="checkbox" name="mus" >Música<br>
+        <input type="checkbox" name="bal" >Balet<br>
+        <input type="checkbox" name="pin" >Pintura<br>
+        <input type="checkbox" name="jud" >Judô<br>
+        <input type="checkbox" name="fut" >Futebol<br>
+    </p>
+</div>
+</div>
+</fieldset>
+<input type="submit" name="enviar" value="Enviar">
+<input type="reset" name="resetar" value="Reset">
+</form> 
+</body>
+</html>
